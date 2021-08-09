@@ -1,25 +1,41 @@
 /* Imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 
 /* Custom Properties */
 
-:root{
---clr-primary-red: hsl(0, 78%, 62%);
---clr-primary-cyan: hsl(180, 62%, 55%);
---clr-primary-orange: hsl(34, 97%, 64%);
---clr-primary-blue: hsl(212, 86%, 64%);
+:root {
+  --clr-primary-red: hsl(0, 78%, 62%);
+  --clr-primary-cyan: hsl(180, 62%, 55%);
+  --clr-primary-orange: hsl(34, 97%, 64%);
+  --clr-primary-blue: hsl(212, 86%, 64%);
 
---clr-neutral-500: hsl(234, 12%, 34%);
---clr-neutral-300: hsl(229, 6%, 66%);
---clr-neutral-200: hsl(0, 0%, 98%);
---clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-500: hsl(234, 12%, 34%);
+  --clr-neutral-300: hsl(229, 6%, 66%);
+  --clr-neutral-200: hsl(0, 0%, 98%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
 
---ff: 'Poppins', sans-serif;
+  --ff: "Poppins", sans-serif;
 
---fw-200: 200;
---fw-400: 400;
---fw-600: 600;
+  --fw-200: 200;
+  --fw-400: 400;
+  --fw-600: 600;
 
---spacer: 1rem;
+  --spacer: 1rem;
+}
+
+/* Reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Utility Classes */
+
+.flow-content > * + * {
+  margin-top: var(--flow-space, var(--spacer));
 }
