@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://brendanmadden.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -57,8 +57,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [BEM](http://getbem.com/naming/) - The BEM docs helped me to understand how and why BEM is used. I really like it so far for organizing and structuring my CSS a little bit better.
+- [Guide to Modern CSS Layouts](https://1linelayouts.glitch.me/) - This is an amazing resource on CSS Layouts with Flex and Grid.
 
 ## Author
 
